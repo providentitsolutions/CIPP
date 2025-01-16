@@ -212,20 +212,12 @@ export const SideNav = (props) => {
               pathname,
             })}
           </Box>
-          <Divider />
           <Box
             sx={{
               display: "flex",
               justifyContent: "center",
             }}
           >
-            <img
-              src={randomimg.imagesrc}
-              alt="sponsor"
-              style={{ cursor: "pointer" }}
-              onClick={() => window.open(randomimg.link)}
-              width={"100px"}
-            />
           </Box>
         </Box>
       </Scrollbar>
